@@ -1,0 +1,544 @@
+{
+  "Common": {
+    "buttons": {
+      "backToHome": "Retour à l'accueil",
+      "back": "Retour",
+      "return": "Retour",
+      "skip": "Passer",
+      "finish": "Terminer",
+      "next": "Suivant"
+    },
+    "languages": {
+      "fr": "Français",
+      "en": "Anglais",
+      "es": "Espagnol",
+      "changeLanguage": "Changer de langue"
+    },
+    "themes": {
+      "light": "Clair",
+      "dark": "Sombre",
+      "system": "Système",
+      "toggleTheme": "Changer de thème"
+    },
+    "others": {
+      "of": "de",
+      "step": "Étape"
+    }
+  },
+  "Onboarding": {
+    "steps": {
+      "intro": {
+        "title": "Crééz votre expérience parfaite",
+        "description": "Bienvenue dans un espace où la créativité rencontre la technologie. J'ai conçu ce portfolio pour vous permettre de me découvrir et de me contacter."
+      },
+      "language": {
+        "choice": "Choisissez votre langue",
+        "description": "Sélectionnez la langue que vous souhaitez utiliser pour naviguer sur mon portfolio."
+      },
+      "theme": {
+        "choice": "Choisissez votre thème",
+        "description": "Sélectionnez le thème qui vous correspond le mieux."
+      },
+      "interests": {
+        "choice": "Choisissez vos centres d'intérêt",
+        "description": "Sélectionnez les centres d'intérêt qui vous correspondent le mieux.",
+        "projects": "Projets",
+        "skills": "Compétences",
+        "experience": "Expérience",
+        "blog": "Articles",
+        "lastWords": "Cette information m'aidera à mettre en évidence le contenu qui vous intéresse le plus."
+      },
+      "cookies": {
+        "title": "Paramètres des cookies",
+        "description": "Nous utilisons des cookies pour améliorer votre expérience. Veuillez sélectionner les types de cookies que vous acceptez.",
+        "necessary": "Cookies nécessaires",
+        "necessaryDescription": "Ces cookies sont essentiels au fonctionnement du site et ne peuvent pas être désactivés.",
+        "functional": "Cookies fonctionnels",
+        "functionalDescription": "Ces cookies permettent d'améliorer les fonctionnalités et la personnalisation de votre expérience.",
+        "analytics": "Cookies analytiques",
+        "analyticsDescription": "Ces cookies nous aident à comprendre comment les visiteurs interagissent avec le site.",
+        "marketing": "Cookies marketing",
+        "marketingDescription": "Ces cookies sont utilisés pour suivre les visiteurs sur les sites web afin d'afficher des publicités pertinentes.",
+        "legalNote": "En continuant, vous acceptez notre politique de confidentialité et nos conditions d'utilisation."
+      }
+    },
+    "languages": {
+      "en": "Anglais",
+      "fr": "Français",
+      "es": "Espagnol"
+    }
+  },
+  "Home": {
+    "loading": "Préparation du portfolio...",
+    "scrollToTop": "Retour en haut",
+    "sections": {
+      "hero": {
+        "title": "Salut, je suis Jocelyn",
+        "subtitle": "Développeur Full Stack",
+        "description": "Je crée des applications web modernes et performantes avec Next.js, TypeScript et React. Transformer des problèmes complexes en solutions élégantes.",
+        "viewProjects": "Voir les projets",
+        "contactMe": "Me contacter"
+      },
+      "about": {
+        "title": "À propos de moi",
+        "description": "Découvrez mon parcours et mes compétences",
+        "paragraphs": {
+          "intro": "Bonjour ! Je suis Jocelyn Sainson, un développeur Full-Stack passionné, spécialisé dans la création d'applications web modernes. Je conçois des solutions réactives et performantes pour résoudre des problèmes concrets.",
+          "skills": "Avec une solide base en technologies front-end et back-end, j'aime intervenir sur l'ensemble de la stack pour offrir des expériences fluides et des architectures robustes.",
+          "hobbies": "Quand je ne code pas, je découvre de nouvelles technologies, je contribue à des projets open-source ou je partage mes connaissances avec la communauté des développeurs."
+        },
+        "buttons": {
+          "cv": "Télécharger le CV",
+          "github": "GitHub",
+          "linkedin": "LinkedIn",
+          "email": "Email"
+        }
+      },
+      "skills": {
+        "title": "Que puis-je faire pour vous ?",
+        "cards": {
+          "frontend": "Front-end",
+          "backend": "Back-end",
+          "devops": "DevOps",
+          "os": "Multi-OS",
+          "qualities": "Qualités"
+        },
+        "description": "Certaines des technologies avec lesquelles j'ai travaillé."
+      },
+      "projects": {
+        "title": "Projets à la une",
+        "subtitle": "Une sélection de mes réalisations récentes, mettant en avant mes compétences en développement web.",
+        "filters": {
+          "all": "Tous"
+        },
+        "badges": {
+          "featured": "À la une"
+        },
+        "buttons": {
+          "code": "Code",
+          "demo": "Voir l'application"
+        },
+        "items": {
+          "portfolio": {
+            "title": "Site Portfolio",
+            "description": "Site portfolio personnel développé avec Next.js et Tailwind CSS, avec animations fluides et design réactif."
+          },
+          "exoskel": {
+            "title": "Exoskel",
+            "description": "Un modèle complet pour une application full-stack avec Next.js, TypeScript, Prisma et Tailwind CSS."
+          }
+        }
+      },
+      "contact": {
+        "title": "Me contacter",
+        "description": "Indiquez votre email et un court message. Je vous répondrai dès que possible.",
+        "placeholders": {
+          "email": "votre@email.com",
+          "hint": "Indiquez votre email pour pouvoir ajouter un message"
+        },
+        "errors": {
+          "invalidEmail": "Veuillez entrer une adresse email valide"
+        },
+        "dialog": {
+          "steps": {
+            "1": {
+              "title": "Votre demande",
+              "description": "Décrivez votre demande !"
+            },
+            "2": {
+              "title": "Sélectionner un motif",
+              "description": "Choisissez l'un des motifs suivants"
+            },
+            "3": {
+              "title": "Confirmation",
+              "description": "Vérifiez les informations avant d'envoyer"
+            }
+          },
+          "form": {
+            "message": {
+              "placeholder": "Rédigez votre demande ici & ajoutez des liens si nécessaire...",
+              "error": "Veuillez entrer un message"
+            },
+            "reason": {
+              "placeholder": "Sélectionnez un motif",
+              "error": "Veuillez sélectionner un motif",
+              "options": {
+                "job": "Offre d'emploi",
+                "collaboration": "Collaboration",
+                "suggestion": "Suggestion",
+                "other": "Autre"
+              }
+            },
+            "preview": {
+              "email": "Email",
+              "message": "Message",
+              "reason": "Motif"
+            }
+          },
+          "buttons": {
+            "back": "Retour",
+            "next": "Suivant",
+            "send": "Envoyer"
+          }
+        }
+      },
+      "timeline": {
+        "2017": {
+          "text": "En 2017, motivé par une détermination sans faute, j'ai décidé de quitter le système scolaire traditionnel pour plonger dans le monde professionnel. \nDevenir barman a été ma première grande aventure, me permettant de développer des compétences en communication et en gestion du stress qu'aucune classe n'aurait pu m'apprendre.",
+          "title": "Mes premiers pas dans le monde réel"
+        },
+        "2020": {
+          "text": "2020 a tout changé. \nAvec la pandémie COVID-19 et la fermeture des établissements, mon monde s'est effondré en quelques jours. \nCe qui semblait être une catastrophe s'est transformée en une période d'introspection profonde. \nJ'ai commencé à explorer différents chemins professionnels, déterminés à transformer cette crise en tremplin vers un avenir qui me passionnerait vraiment.",
+          "title": "Quand la crise devient une opportunité"
+        },
+        "2021": {
+          "text": "À la recherche de ma véritable vocation, j'ai adopté une carrière dans le commerce pendant un an pour me laisser le temps de chercher ma voie. \nCette expérience s'est avérée être un véritable laboratoire d'apprentissage. \nChaque négociation, chaque vente réussie m'a appris l'importance de l'écoute active et de la résolution de problèmes. \nBien que cette voie n'était pas ma destination finale, elle m'a offert des compétences inestimables et clarifié mes aspirations professionnelles.",
+          "title": "L'art de la persuasion"
+        },
+        "2022": {
+          "text": "2022 marque un tournant dans mon voyage: l'immersion dans le monde informatique et  du développement. \nCe qui a commencé comme une simple curiosité est rapidement devenu une passion consommatrice. \nChaque ligne de code écrite, chaque problème résolu renforce ma conviction que j'ai finalement trouvé mon chemin.",
+          "title": "La révélation numérique"
+        },
+        "description": "Voici une chronologie de ma vie.",
+        "title": "Qui suis-je?"
+      }
+    },
+    "nav": {
+      "home": "Accueil",
+      "about": "À propos",
+      "skills": "Compétences",
+      "projects": "Projets",
+      "contact": "Contact",
+      "timeline": "Chronologie"
+    },
+    "footer": {
+      "rights": "Tous droits réservés",
+      "madeWith": "Fait avec",
+      "by": "par"
+    }
+  },
+  "Login": {
+    "title": "Connexion",
+    "email": "Email",
+    "password": "Mot de passe",
+    "login": "Se connecter",
+    "validation": {
+      "email": "Veuillez entrer une adresse email valide",
+      "password": "Veuillez entrer un mot de passe"
+    },
+    "notifications": {
+      "success": "Connexion réussie !",
+      "invalidCredentials": "Identifiants invalides",
+      "invalidUsername": "Erreur lors de la récupération du nom d'utilisateur.",
+      "genericErrorLogin": "Une erreur est survenue lors de la connexion.",
+      "genericError": "Une erreur est survenue."
+    },
+    "welcome": "Bienvenue.",
+    "dontHaveAccount": "Pas encore de compte ?",
+    "signUp": "S'inscrire",
+    "termsAndPolicy": {
+      "text": "En cliquant sur continuer, vous acceptez nos",
+      "terms": "Conditions d'utilisation",
+      "and": "et",
+      "privacy": "Politique de confidentialité"
+    },
+    "loading": "Connexion en cours...",
+    "or": "Ou",
+    "and": "et"
+  },
+  "SignUp": {
+    "title": "Inscription",
+    "welcome": "Bienvenue.",
+    "alreadyHaveAccount": "Déjà un compte ?",
+    "signIn": "Se connecter",
+    "validation": {
+      "firstNameLength": "Votre prénom doit contenir au moins 2 caractères",
+      "lastNameLength": "Votre nom doit contenir au moins 2 caractères",
+      "email": "Email invalide.",
+      "username": "Le nom d'utilisateur doit contenir au moins 4 caractères",
+      "password": "Le mot de passe doit contenir au moins 8 caractères",
+      "passwordConfirmation": "Les mots de passe ne correspondent pas"
+    },
+    "form": {
+      "email": "Email",
+      "password": "Mot de passe",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "username": "Nom d'utilisateur",
+      "confirmPassword": "Confirmez le mot de passe",
+      "placeholders": {
+        "firstName": "Jean",
+        "lastName": "Dupont",
+        "username": "JeanDupont007",
+        "email": "jeandupont@example.com",
+        "password": "********"
+      },
+      "buttons": {
+        "signUp": "S'inscrire",
+        "loading": "Connexion...",
+        "github": "Github",
+        "google": "Google"
+      }
+    },
+    "notifications": {
+      "success": "Compte créé avec succès !",
+      "genericError": "Une erreur est survenue.",
+      "genericErrorSignUp": "Une erreur est survenue lors de l'inscription.",
+      "formError": "Veuillez corriger les erreurs du formulaire."
+    },
+    "or": "Ou",
+    "termsAndPolicy": {
+      "text": "En cliquant sur continuer, vous acceptez nos",
+      "terms": "Conditions d'utilisation",
+      "and": "et",
+      "privacy": "Politique de confidentialité"
+    }
+  },
+  "SignOut": {
+    "notifications": {
+      "success": "Déconnexion réussie !",
+      "error": "Une erreur est survenue lors de la déconnexion."
+    }
+  },
+  "Maintenance": {
+    "title": "Nouvelles fonctionnalités à venir !",
+    "description": "Cette section est en cours de développement. Nous travaillons dur pour vous offrir une expérience exceptionnelle.",
+    "back": "Retour"
+  },
+  "Library": {
+    "components": {
+      "title": "Composants",
+      "description": "Composants réutilisables pour construire votre interface utilisateur",
+      "noResults": "Aucun composant ne correspond à votre recherche.",
+      "types": {
+        "UI": "UI",
+        "Layout": "Mise en page",
+        "Navigation": "Navigation",
+        "Form": "Formulaire",
+        "DataDisplay": "Affichage de données"
+      },
+      "status": {
+        "New": "Nouveau",
+        "Updated": "Mis à jour",
+        "Deprecated": "Déprécié"
+      },
+      "complexity": {
+        "Simple": "Simple",
+        "Moderate": "Modéré",
+        "Complex": "Complexe"
+      },
+      "items": {
+        "button": {
+          "name": "Button",
+          "description": "Un bouton interactif pour les actions utilisateur"
+        },
+        "card": {
+          "name": "Card",
+          "description": "Un conteneur pour afficher du contenu"
+        },
+        "tabs": {
+          "name": "Tabs",
+          "description": "Onglets pour organiser le contenu"
+        }
+      }
+    },
+    "colors": {
+      "title": "Couleurs",
+      "description": "Palette de couleurs de votre application",
+      "noResults": "Aucune couleur ne correspond à votre recherche.",
+      "categories": {
+        "Base": "Base",
+        "Background": "Arrière-plan",
+        "Text": "Texte",
+        "Border": "Bordure"
+      },
+      "items": {
+        "primary": {
+          "name": "Primary",
+          "description": "Couleur principale de l'application"
+        },
+        "secondary": {
+          "name": "Secondary",
+          "description": "Couleur secondaire de l'application"
+        },
+        "accent": {
+          "name": "Accent",
+          "description": "Couleur d'accent pour les éléments mis en évidence"
+        },
+        "background": {
+          "name": "Background",
+          "description": "Couleur de fond principale"
+        },
+        "foreground": {
+          "name": "Foreground",
+          "description": "Couleur de texte principale"
+        },
+        "muted": {
+          "name": "Muted",
+          "description": "Couleur atténuée pour les éléments secondaires"
+        },
+        "border": {
+          "name": "Border",
+          "description": "Couleur de bordure standard"
+        }
+      }
+    },
+    "fonts": {
+      "title": "Typographie",
+      "description": "Polices de caractères utilisées dans votre application",
+      "noResults": "Aucune police ne correspond à votre recherche.",
+      "inter": {
+        "description": "Police principale de l'application",
+        "category": "Sans-serif"
+      },
+      "jetbrainsMono": {
+        "description": "Police monospace pour le code",
+        "category": "Monospace"
+      }
+    },
+    "icons": {
+      "title": "Icônes",
+      "description": "Icônes disponibles dans votre application",
+      "noResults": "Aucune icône ne correspond à votre recherche.",
+      "category": {
+        "lucide": "Lucide"
+      }
+    },
+    "images": {
+      "title": "Images",
+      "description": "Images et illustrations disponibles dans votre application",
+      "noResults": "Aucune image ne correspond à votre recherche.",
+      "category": {
+        "illustrations": "Illustrations",
+        "technologies": "Technologies"
+      },
+      "tags": {
+        "quality": "qualité",
+        "human": "humain",
+        "skill": "compétence",
+        "backend": "backend",
+        "technology": "technologie",
+        "development": "développement",
+        "devops": "devops",
+        "tools": "outils",
+        "os": "os",
+        "system": "système",
+        "operating": "exploitation",
+        "frontend": "frontend"
+      },
+      "humanQuality": {
+        "name": "Human Quality",
+        "description": "Image illustrant les qualités humaines"
+      },
+      "humanQuality2": {
+        "name": "Human Quality 2",
+        "description": "Image illustrant les qualités humaines (variante)"
+      },
+      "backendTech": {
+        "name": "Backend Technologies",
+        "description": "Image illustrant les technologies backend"
+      },
+      "devops": {
+        "name": "DevOps",
+        "description": "Image illustrant les outils DevOps"
+      },
+      "os": {
+        "name": "Operating Systems",
+        "description": "Image illustrant les systèmes d'exploitation"
+      },
+      "frontendTech": {
+        "name": "Frontend Technologies",
+        "description": "Image illustrant les technologies frontend"
+      }
+    }
+  },
+  "Errors": {
+    "403": {
+      "title": "Accès refusé",
+      "message": "Vous n'avez pas la permission d'accéder à cette page.",
+      "actions": {
+        "primary": "Accueil",
+        "secondary": "Connexion"
+      }
+    },
+    "404": {
+      "title": "Page non trouvée",
+      "message": "La page que vous recherchez n'existe pas.",
+      "actions": {
+        "primary": "Accueil",
+        "secondary": "Nous contacter"
+      }
+    },
+    "500": {
+      "title": "Erreur serveur",
+      "message": "Le serveur a rencontré une erreur interne et n'a pas pu traiter votre requête.",
+      "actions": {
+        "primary": "Accueil",
+        "secondary": "Réessayer"
+      }
+    },
+    "global": {
+      "title": "Erreur critique",
+      "message": "Une erreur inattendue s'est produite sur le serveur.",
+      "actions": {
+        "primary": "Réessayer",
+        "secondary": "Accueil"
+      }
+    }
+  },
+  "Mail": {
+    "contact": {
+      "preview": "Nouvelle demande de contact",
+      "title": "Nouvelle demande de contact !",
+      "reason": "Motif de la demande :",
+      "message": "Message :",
+      "copyright": "© 2024 Jocelyn Sainson. Tous droits réservés."
+    },
+    "thanks": {
+      "preview": "Merci pour votre message — Je reviendrai vers vous dès que possible !",
+      "title": "Merci pour votre message !",
+      "message": "J'ai reçu votre demande et reviendrai vers vous dès que possible après avoir examiné votre message.",
+      "expectedResponseTime": "Temps de réponse attendu : dans les 24-48 heures",
+      "responseHours": "Heures de réponse : Lundi-Vendredi, 9h-18h (CET)",
+      "summary": "Résumé de votre demande de contact",
+      "immediateAssistance": "Pour une assistance immédiate, vous pouvez :",
+      "callNow": "Appeler maintenant",
+      "scheduleMeeting": "Planifier un rendez-vous",
+      "commonQuestions": "Questions courantes",
+      "servicePackages": "Quels sont vos packages de service ?",
+      "rates": "Quels sont vos tarifs ?",
+      "howSoonCanWeStart": "Quand pouvons-nous commencer ?",
+      "joinOurGrowingCommunity": "Rejoignez notre communauté en croissance",
+      "satisfiedClients": "Clients satisfaits",
+      "averageRating": "Note moyenne",
+      "responseRate": "Taux de réponse",
+      "connectWithUs": "Contactez-nous",
+      "thankYouAgain": "Merci encore pour votre confiance. À bientôt !",
+      "clients": "Clients"
+    },
+    "verifyEmail": {
+      "preview": "Vérifier votre adresse email",
+      "title": "Vérifier votre adresse email",
+      "welcome": "Bienvenue !",
+      "welcomeUser": "Bienvenue {{userFirstname}} !",
+      "message": "Nous sommes ravis de vous avoir parmi nous. Pour commencer votre parcours, veuillez vérifier votre adresse email en cliquant sur le bouton ci-dessous.",
+      "message2": "Ce lien de vérification expirera dans 24 heures",
+      "message3": "Seuls les liens de sources de confiance sont cliquables",
+      "link": "Vérifier mon email",
+      "message4": "Si vous n'avez pas demandé cette vérification, vous pouvez ignorer cet email.",
+      "quickLinks": "Liens rapides",
+      "documentation": "Documentation",
+      "gettingStarted": "Commencer",
+      "community": "Communauté",
+      "message5": "Cette demande de vérification a été initiée depuis :",
+      "device": "Appareil",
+      "unknown": "Inconnu",
+      "copyright": "© 2024 Jocelyn Sainson. Tous droits réservés.",
+      "privacyPolicy": "Politique de confidentialité",
+      "unsubscribe": "Se désinscrire"
+    }
+  },
+  "Test": {
+    "test": "fr"
+  }
+}

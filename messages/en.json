@@ -1,0 +1,545 @@
+{
+  "Common": {
+    "buttons": {
+      "backToHome": "Back to home",
+      "return": "Return",
+      "back": "Back",
+      "skip": "Skip",
+      "finish": "Finish",
+      "next": "Next"
+    },
+    "languages": {
+      "fr": "French",
+      "en": "English",
+      "es": "Spanish",
+      "changeLanguage": "Change language"
+    },
+    "themes": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System",
+      "toggleTheme": "Toggle theme"
+    },
+    "others": {
+      "of": "of",
+      "step": "Step"
+    }
+  },
+  "Onboarding": {
+    "languages": {
+      "fr": "French",
+      "en": "English",
+      "es": "Spanish"
+    },
+    "steps": {
+      "intro": {
+        "title": "Let's craft your perfect experience",
+        "description": "Welcome to a space where creativity meets technology. I've designed this portfolio to adapt to your preferences and showcase my work in a way that resonates with you."
+      },
+      "language": {
+        "choice": "Choose your language",
+        "description": "Select the language you'd like to use while browsing my portfolio."
+      },
+      "theme": {
+        "choice": "Choose your theme",
+        "description": "Customize the appearance of the portfolio to your liking."
+      },
+      "interests": {
+        "choice": "What are you most interested in seeing in my portfolio?",
+        "description": "Select your areas of interest to personalize your experience.",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience",
+        "blog": "Articles",
+        "lastWords": "This information will help us highlight the content that interests you the most."
+      },
+      "cookies": {
+        "title": "Cookie Settings",
+        "description": "We use cookies to enhance your experience. Please select which types of cookies you accept.",
+        "necessary": "Necessary Cookies",
+        "necessaryDescription": "These cookies are essential for the website to function and cannot be disabled.",
+        "functional": "Functional Cookies",
+        "functionalDescription": "These cookies enable improved functionality and personalization of your experience.",
+        "analytics": "Analytics Cookies",
+        "analyticsDescription": "These cookies help us understand how visitors interact with the website.",
+        "marketing": "Marketing Cookies",
+        "marketingDescription": "These cookies are used to track visitors across websites to display relevant advertisements.",
+        "legalNote": "By continuing, you agree to our privacy policy and terms of service."
+      }
+    }
+  },
+  "Home": {
+    "loading": "Preparing portfolio...",
+    "scrollToTop": "Back to top",
+    "sections": {
+      "hero": {
+        "title": "Hi, I'm Jocelyn",
+        "subtitle": "Full Stack Developer",
+        "description": " I build modern, high-performance web applications with Next.js, TypeScript, and React. Turning complex problems into elegant solutions.",
+        "viewProjects": "View Projects",
+        "contactMe": "Contact Me"
+      },
+      "about": {
+        "title": "About Me",
+        "description": "Discover my journey and skills",
+        "paragraphs": {
+          "intro": "Hello! I'm Jocelyn Sainson, a passionate Full-Stack Developer with expertise in building modern web applications. I specialize in creating responsive, high-performance solutions that solve real-world problems.",
+          "skills": "With a strong foundation in both front-end and back-end technologies, I enjoy working across the entire development stack to deliver seamless user experiences and robust application architectures.",
+          "hobbies": "When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing my knowledge with the developer community."
+        },
+        "buttons": {
+          "cv": "Download CV",
+          "github": "GitHub",
+          "linkedin": "LinkedIn",
+          "email": "Email"
+        }
+      },
+      "skills": {
+        "title": "What can I do for you ?",
+        "cards": {
+          "frontend": "Front-end",
+          "backend": "Back-end",
+          "devops": "DevOps",
+          "os": "Multi OS",
+          "qualities": "Qualities"
+        },
+        "description": "Some of the technologies I've worked with."
+      },
+      "projects": {
+        "title": "Featured Projects",
+        "subtitle": "A selection of my recent work, showcasing my skills and experience in web development.",
+        "filters": {
+          "all": "All"
+        },
+        "badges": {
+          "featured": "Featured"
+        },
+        "buttons": {
+          "code": "Code",
+          "demo": "Go to app"
+        },
+        "items": {
+          "portfolio": {
+            "title": "Portfolio Website",
+            "description": "Personal portfolio website built with Next.js and Tailwind CSS, featuring smooth animations and responsive design."
+          },
+          "exoskel": {
+            "title": "Exoskel",
+            "description": "A complete boiler plate for a full-stack application with Next.js, TypeScript, Prisma, and Tailwind CSS."
+          }
+        }
+      },
+      "contact": {
+        "title": "Contact me",
+        "description": "Provide your Email and a short description of your request. I will answer you as soon as possible.",
+        "placeholders": {
+          "email": "your@email.com",
+          "hint": "Provide your email to be able to add a message"
+        },
+        "errors": {
+          "invalidEmail": "Please enter a valid email address"
+        },
+        "dialog": {
+          "steps": {
+            "1": {
+              "title": "Your request",
+              "description": "Describe your request!"
+            },
+            "2": {
+              "title": "Select a reason",
+              "description": "Choose one of the following reasons"
+            },
+            "3": {
+              "title": "Confirmation",
+              "description": "Check the information before sending"
+            }
+          },
+          "form": {
+            "message": {
+              "placeholder": "Write your request here & add links if necessary ...",
+              "error": "Please enter a message"
+            },
+            "reason": {
+              "placeholder": "Select a reason",
+              "error": "Please select a reason",
+              "options": {
+                "job": "Job offer",
+                "collaboration": "Collaboration",
+                "suggestion": "Suggestion",
+                "other": "Other"
+              }
+            },
+            "preview": {
+              "email": "Email",
+              "message": "Message",
+              "reason": "Reason"
+            }
+          },
+          "buttons": {
+            "back": "Back",
+            "next": "Next",
+            "send": "Send"
+          }
+        }
+      },
+      "timeline": {
+        "2017": {
+          "title": "My first steps in the real world",
+          "text": "In 2017, driven by a determination without fail, I decided to leave the traditional school system to plunge into the professional world. Becoming a bartender was my first great adventure, allowing me to develop skills in communication and stress management that no classroom could have taught me."
+        },
+        "2020": {
+          "title": "When the crisis becomes an opportunity",
+          "text": "2020 has changed everything. With the COVID-19 pandemic and the closure of establishments, my world collapsed in a few days. What seemed like a catastrophe turned into a period of deep introspection. I began to explore different professional paths, determined to transform this crisis into a stepping stone to a future that would really excite me."
+        },
+        "2021": {
+          "title": "The art of persuasion",
+          "text": "In search of my true vocation, I embraced a career in commerce for a year. This experience proved to be a true learning laboratory. Each negotiation, each successful sale taught me the importance of active listening and problem-solving. Although this path was not my final destination, it offered me invaluable skills and clarified my professional aspirations."
+        },
+        "2022": {
+          "title": "The digital revelation",
+          "text": "2022 marks a turning point in my journey: the immersion in the IT world and the development industry. What started as a simple curiosity quickly became a consuming passion. Each line of code written, each problem solved reinforces my conviction that I have finally found my path."
+        },
+
+        "title": "Who am I ?",
+        "description": "Heres a timeline of my life."
+      }
+    },
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "skills": "Skills",
+      "timeline": "Timeline",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "footer": {
+      "rights": "All rights reserved",
+      "madeWith": "Made with",
+      "by": "by"
+    }
+  },
+  "Login": {
+    "title": "Login",
+    "email": "Email",
+    "password": "Password",
+    "login": "Login",
+    "validation": {
+      "email": "Please enter a valid email address",
+      "password": "Please enter a password"
+    },
+    "notifications": {
+      "success": "Successfully logged in!",
+      "invalidCredentials": "Invalid credentials",
+      "invalidUsername": "Error while retrieving the username.",
+      "genericErrorLogin": "An error occurred while logging in.",
+      "genericError": "An error occurred."
+    },
+    "welcome": "Welcome.",
+    "dontHaveAccount": "Don't have an account ?",
+    "signUp": "Sign up",
+    "termsAndPolicy": {
+      "text": "By clicking continue, you agree to our",
+      "terms": "Terms of Service",
+      "and": "and",
+      "privacy": "Privacy Policy"
+    },
+    "loading": "Logging in...",
+    "or": "Or",
+    "and": "and"
+  },
+  "SignUp": {
+    "title": "Sign up",
+    "welcome": "Welcome.",
+    "alreadyHaveAccount": "Already have an account ?",
+    "signIn": "Sign In",
+    "validation": {
+      "firstNameLength": "Your name must contain at least 2 characters",
+      "lastNameLength": "Your last name must contain at least 2 characters",
+      "email": "Invalid Email.",
+      "username": "Username must contain at least 4 characters",
+      "password": "Password must contain at least 8 characters",
+      "passwordConfirmation": "Passwords didn't match"
+    },
+    "form": {
+      "email": "Email",
+      "password": "Password",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "username": "Username",
+      "confirmPassword": "Confirm password",
+      "placeholders": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "username": "JohnDoe007",
+        "email": "johndoe@example.com",
+        "password": "********"
+      },
+      "buttons": {
+        "signUp": "Sign Up",
+        "loading": "Connecting...",
+        "github": "Github",
+        "google": "Google"
+      }
+    },
+    "notifications": {
+      "success": "Account created successfully!",
+      "genericError": "An error occurred.",
+      "genericErrorSignUp": "An error occurred while signing up.",
+      "formError": "Please correct the form errors."
+    },
+    "or": "Or",
+    "termsAndPolicy": {
+      "text": "By clicking continue, you agree to our",
+      "terms": "Terms of Service",
+      "and": "and",
+      "privacy": "Privacy Policy"
+    }
+  },
+  "SignOut": {
+    "notifications": {
+      "success": "Successfully signed out!",
+      "error": "An error occurred while signing out."
+    }
+  },
+  "Maintenance": {
+    "title": "New features coming soon!",
+    "description": "This section is under development. We are working hard to provide you with an exceptional experience.",
+    "back": "return"
+  },
+  "Library": {
+    "components": {
+      "title": "Components",
+      "description": "Reusable components to build your user interface",
+      "noResults": "No components match your search criteria.",
+      "types": {
+        "UI": "UI",
+        "Layout": "Layout",
+        "Navigation": "Navigation",
+        "Form": "Form",
+        "DataDisplay": "Data Display"
+      },
+      "status": {
+        "New": "New",
+        "Updated": "Updated",
+        "Deprecated": "Deprecated"
+      },
+      "complexity": {
+        "Simple": "Simple",
+        "Moderate": "Moderate",
+        "Complex": "Complex"
+      },
+      "items": {
+        "button": {
+          "name": "Button",
+          "description": "An interactive button for user actions"
+        },
+        "card": {
+          "name": "Card",
+          "description": "A container to display content"
+        },
+        "tabs": {
+          "name": "Tabs",
+          "description": "Tabs to organize content"
+        }
+      }
+    },
+    "colors": {
+      "title": "Colors",
+      "description": "Color palette of your application",
+      "noResults": "No colors match your search criteria.",
+      "categories": {
+        "Base": "Base",
+        "Background": "Background",
+        "Text": "Text",
+        "Border": "Border"
+      },
+      "items": {
+        "primary": {
+          "name": "Primary",
+          "description": "Main color of the application"
+        },
+        "secondary": {
+          "name": "Secondary",
+          "description": "Secondary color of the application"
+        },
+        "accent": {
+          "name": "Accent",
+          "description": "Accent color for highlighted elements"
+        },
+        "background": {
+          "name": "Background",
+          "description": "Main background color"
+        },
+        "foreground": {
+          "name": "Foreground",
+          "description": "Main text color"
+        },
+        "muted": {
+          "name": "Muted",
+          "description": "Muted color for secondary elements"
+        },
+        "border": {
+          "name": "Border",
+          "description": "Standard border color"
+        }
+      }
+    },
+    "fonts": {
+      "title": "Typography",
+      "description": "Fonts used in your application",
+      "noResults": "No fonts match your search.",
+      "jetbrainsMono": {
+        "description": "Main application font",
+        "category": "Sans-serif"
+      },
+      "inter": {
+        "description": "Monospace font for code",
+        "category": "Monospace"
+      }
+    },
+    "icons": {
+      "title": "Icons",
+      "description": "Icons available in your application",
+      "noResults": "No icons match your search.",
+      "category": {
+        "lucide": "Lucide"
+      }
+    },
+    "images": {
+      "title": "Images",
+      "description": "Images and illustrations available in your application",
+      "noResults": "No images match your search.",
+      "category": {
+        "illustrations": "Illustrations",
+        "technologies": "Technologies"
+      },
+      "tags": {
+        "quality": "quality",
+        "human": "human",
+        "skill": "skill",
+        "backend": "backend",
+        "technology": "technology",
+        "development": "development",
+        "devops": "devops",
+        "tools": "tools",
+        "os": "os",
+        "system": "system",
+        "operating": "operating",
+        "frontend": "frontend"
+      },
+      "humanQuality": {
+        "name": "Human Quality",
+        "description": "Image illustrating human qualities"
+      },
+      "humanQuality2": {
+        "name": "Human Quality 2",
+        "description": "Image illustrating human qualities (variant)"
+      },
+      "backendTech": {
+        "name": "Backend Technologies",
+        "description": "Image illustrating backend technologies"
+      },
+      "devops": {
+        "name": "DevOps",
+        "description": "Image illustrating DevOps tools"
+      },
+      "os": {
+        "name": "Operating Systems",
+        "description": "Image illustrating operating systems"
+      },
+      "frontendTech": {
+        "name": "Frontend Technologies",
+        "description": "Image illustrating frontend technologies"
+      }
+    }
+  },
+  "Errors": {
+    "403": {
+      "title": "Access Denied",
+      "message": "You do not have permission to access this page.",
+      "actions": {
+        "primary": "Go Home",
+        "secondary": "Login"
+      }
+    },
+    "404": {
+      "title": "Page not found",
+      "message": "The page you are looking for does not exist.",
+      "actions": {
+        "primary": "Go Home",
+        "secondary": "Contact Us"
+      }
+    },
+    "500": {
+      "title": "Server Error",
+      "message": "The server encountered an internal error and was unable to complete your request.",
+      "actions": {
+        "primary": "Go Home",
+        "secondary": "Try Again"
+      }
+    },
+    "global": {
+      "title": "Critical Error",
+      "message": "An unexpected error has occurred on the server.",
+      "actions": {
+        "primary": "Try Again",
+        "secondary": "Go Home"
+      }
+    }
+  },
+  "Mail": {
+    "contact": {
+      "preview": "New contact request",
+      "title": "New contact request ! ",
+      "reason": "Reason of the contact :",
+      "message": "Message :",
+      "copyright": "© 2024 Jocelyn Sainson. All rights reserved."
+    },
+    "thanks": {
+      "preview": "Thank you for your message — I'll get back to you soon!",
+      "title": "Thank you for your message !",
+      "message": "I've received your request and will get back to you as soon as possible after reviewing your message.",
+      "expectedResponseTime": "Expected response time: within 24-48 hours",
+      "responseHours": "Response hours: Monday-Friday, 9AM-6PM (CET)",
+      "summary": "Your Contact Request Summary",
+      "immediateAssistance": "For immediate assistance, you can:",
+      "callNow": "Call now",
+      "scheduleMeeting": "Schedule a meeting",
+      "commonQuestions": "Common Questions",
+      "servicePackages": "What are your service packages?",
+      "rates": "What are your rates?",
+      "howSoonCanWeStart": "How soon can we start?",
+      "joinOurGrowingCommunity": "Join our growing community",
+      "satisfiedClients": "Satisfied Clients",
+      "clients": "Clients",
+      "averageRating": "Average Rating",
+      "responseRate": "Response Rate",
+      "connectWithUs": "Connect with us",
+      "thankYouAgain": "Thank you again for your trust. Talk to you soon!"
+    },
+    "verifyEmail": {
+      "preview": "Verify your email address",
+      "title": "Verify your email address",
+      "welcome": "Welcome!",
+      "welcomeUser": "Welcome {{userFirstname}}!",
+      "message": "We're excited to have you on board. To start your journey, please verify your email address by clicking the button below.",
+      "message2": "This verification link will expire in 24 hours",
+      "message3": "Only click links from trusted sources",
+      "link": "Verify my email",
+      "message4": "If you didn't request this verification, you can safely ignore this email.",
+      "quickLinks": "Quick Links",
+      "documentation": "Documentation",
+      "gettingStarted": "Getting Started",
+      "community": "Community",
+      "message5": "This verification request was initiated from:",
+      "device": "Device",
+      "unknown": "Unknown",
+      "copyright": "© 2024 Jocelyn Sainson. All rights reserved.",
+      "privacyPolicy": "Privacy Policy",
+      "unsubscribe": "Unsubscribe"
+    }
+  },
+  "Test": {
+    "test": "en"
+  }
+}

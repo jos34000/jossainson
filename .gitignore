@@ -1,0 +1,108 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+<<<<<<< HEAD
+node_modules
+.pnp
+.pnp.js
+
+# testing
+coverage
+playwright-report/
+test-results/
+
+# next.js
+.next/
+out/
+
+# production
+build
+dist
+=======
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+>>>>>>> 907bed09a76160ea7a26b81e284ff59cbc188af8
+
+# misc
+.DS_Store
+*.pem
+<<<<<<< HEAD
+Thumbs.db
+=======
+>>>>>>> 907bed09a76160ea7a26b81e284ff59cbc188af8
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+<<<<<<< HEAD
+# local env files
+.env*.local
+.env.development
+.env.production
+=======
+# env files (can opt-in for committing if needed)
+.env*
+>>>>>>> 907bed09a76160ea7a26b81e284ff59cbc188af8
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+<<<<<<< HEAD
+# IDE
+.idea
+.vscode
+*.iml
+
+# compiled output
+**/.svelte-kit/
+**/package/
+
+# Logs
+logs
+*.log
+
+# OS specific files
+.DS_Store
+.directory
+.Trash-*
+$RECYCLE.BIN/
+Desktop.ini
+
+=======
+>>>>>>> 907bed09a76160ea7a26b81e284ff59cbc188af8
+sonar-project.properties
+TODO.md
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+.vscode/
+
+certificates
+.vscode/
